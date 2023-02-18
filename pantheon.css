@@ -8,7 +8,7 @@
 .hero{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://planetofhotels.com/guide/sites/default/files/styles/paragraph__live_banner__lb_image__1880bp/public/live_banner/rome.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://www.cathaypacific.com/content/dam/destinations/rome/cityguide-gallery/rome-pantheon-920x500.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -53,13 +53,13 @@ nav ul li a{
     margin-top: 80px;
 }
 
-.col h1{
-    font-size: 160px;
+.col h4{
+    font-size: 120px;
     color: #fff;
     font-weight: 600;
 }
 
-.col h1:hover{
+.col h4:hover{
     -webkit-text-stroke: 2px #fff;
     color: transparent;
 }
@@ -73,13 +73,6 @@ nav ul li a{
     padding: 14px 70px;
     border-radius: 50px;
     margin-top: 20px;
-}
-
-.back-video{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
 }
 
 @media (min-aspect-ratio: 16/9){
@@ -130,74 +123,15 @@ nav ul li a{
     background: transparent;
 }
 
-.card {
-    color: #fff;
-    width: 200px;
-    height: 230px;
-    display: inline-block;
-    border-radius: 10px;
-    padding: 15px 25px;
-    box-sizing: border-box;
-    cursor: pointer;
-    margin: 10px 15px;
-    background-position: center;
-    background-size: cover;
-    transition: transform 0.5s;
-}
-
-.card1 {
-    background-image: url(./Rome.jpg.webp);
-}
-
-.card2 {
-    background-image: url(./THE\ COLOSSEUM.jpg.webp);
-}
-
-.card3 {
-    background-image: url(https://upload.travelawaits.com/ta/uploads/2022/02/shutterstock_1898112376.jpg);
-}
-
-.card4 {
-    background-image: url(https://www.cathaypacific.com/content/dam/destinations/rome/cityguide-gallery/rome-pantheon-920x500.jpg);
-}
-
 .col {
     display: flex;
     align-items: center;
 }
-
-.col-1 {
-    margin-right: 50px;
-}
-
-.card:hover {
-    transform: translateY(-10px);
-}
-
 .nav-button:hover {
     transform: translateY(-10px);
-}
-
-.card p {
-    text-shadow: 0 0 15px #000;
-    font-size: 8px;
 }
 
 .col-1 p {
     color: #fff;
     font-style: italic ;
-}
-
-.col-2 a{
-    text-decoration: none;
-    display: inline-block;
-    color: #fff;
-    font-size: 17px;
-}
-
-.col-3 a{
-    text-decoration: none;
-    display: inline-block;
-    color: #fff;
-    font-size: 17px;
 }
